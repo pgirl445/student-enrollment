@@ -1,4 +1,4 @@
-# Student Registration Form (Alternative Semantic Layout)
+# Student Registration Form
 
 A student registration page built with pure semantic HTML, using a clean tabular structure 
 ## Fields Collected
