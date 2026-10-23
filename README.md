@@ -1,7 +1,6 @@
 # Student Registration Form (Alternative Semantic Layout)
 
-A student registration page built with pure semantic HTML (no CSS), using a clean tabular structure that is distinctly different in visual appearance and markup architecture from the original fieldset-based design.
-
+A student registration page built with pure semantic HTML, using a clean tabular structure 
 ## Fields Collected
 
 Only the required registration fields are collected:
@@ -24,18 +23,6 @@ Only the required registration fields are collected:
 4. Computer Science
 5. Software Engineering and Information System
 
-## Key Differences from the Previous Version
-
-| Aspect | Previous Version (`student-registration/`) | This Version (`student-enrollment/`) |
-|---|---|---|
-| **Form Layout** | Stacked `<fieldset>` boxes with `<legend>` headers and `<br>` breaks | Aligned semantic `<table>` layout (`<tr>`, `<td>`) |
-| **Field Order** | Personal &rarr; Contact &rarr; Academic | Academic credentials (Matric) &rarr; Name &rarr; Details |
-| **Gender Input** | Radio buttons in a nested `<fieldset>` | Clean `<select>` drop-down list |
-| **Program Input** | Radio buttons wrapped in a nested `<fieldset>` | Inline `<label>` radio buttons inside a table cell |
-| **Buttons** | `<button type="submit">` and `<button type="reset">` | Centered `<input type="submit">` and `<input type="reset">` |
-| **Visual Appearance** | Boxed outline sections with text cutouts | Structured, horizontally aligned tabular grid |
-
-## How to Run
 
 Open `index.html` in any web browser:
 ```bash
